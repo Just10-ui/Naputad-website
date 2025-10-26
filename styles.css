@@ -1,4 +1,52 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: sans-serif;
+}
+
+#logo {
+  width: 12vw;
+}
+
+.hero header nav {
+  margin: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.hero header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.hero nav ul li a {
+  text-decoration: none;
+  color: #ECEEDF;
+  margin: 0 1rem;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.hero nav ul li a:hover {
+  background-color: #00000031;
+}
+
+.hero {
+  border: 1px solid #000;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./assets/images/background-2.jpg');
+  background-color: rgba(0, 0, 0, 0.25);
+  background-blend-mode: darken;
+  position: absolute;
+  top: 0;
 }
