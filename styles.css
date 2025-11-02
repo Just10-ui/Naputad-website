@@ -47,6 +47,14 @@ body {
   background-image: url('./assets/images/background-2.jpg');
   background-color: rgba(0, 0, 0, 0.25);
   background-blend-mode: darken;
+  position: relative;
+}
+
+.hero main {
   position: absolute;
-  top: 0;
+  top: 40%;
+  display: flex;
+  justify-self: center;
+  font-size: 48px;
+  color: #fff;
 }
