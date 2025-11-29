@@ -32,7 +32,7 @@ body {
   display: flex;
 }
 
-.hero nav ul li a {
+.navigation {
   text-decoration: none;
   color: #ECEEDF;
   margin: 0 1rem;
@@ -42,7 +42,11 @@ body {
   transition: background-color .5s ease;
 }
 
-.hero nav ul li a:hover {
+.active {
+  background-color: #00000031;
+}
+
+.navigation:hover {
   background-color: #00000031;
 }
 
